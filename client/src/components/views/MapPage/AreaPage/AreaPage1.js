@@ -5,7 +5,7 @@ import data3 from '../data/data3';
 import data4 from '../data/data4';
 import data5 from '../data/data5';
 
-function Area1Page() {
+function AreaPage1() {
   useEffect(() => {
 
   
@@ -333,4 +333,4 @@ function Area1Page() {
   );
 }
 
-export default Area1Page;
+export default AreaPage1;
