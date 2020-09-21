@@ -18,11 +18,11 @@ function AreaPage1() {
     let map = new window.kakao.maps.Map(container, options);
 
     
-    var imageSrc = require("../Image/marker-green.png");
-    var imageSrc2 = require("../Image/marker-orange.png");
-    var imageSrc3 = require("../Image/marker-purple.png");
-    var imageSrc4 = require("../Image/marker-yellow.png");
-    var imageSrc5 = require("../Image/marker_group2-5.png");
+    var imageSrc = require("../Image/marker_group1-1.png");
+    var imageSrc2 = require("../Image/marker_group1-2.png");
+    var imageSrc3 = require("../Image/marker_group1-3.png");
+    var imageSrc4 = require("../Image/marker_group1-4.png");
+    var imageSrc5 = require("../Image/marker_group1-5.png");
     var imageSize = new window.kakao.maps.Size(30, 40);
 
     var markerImage = new window.kakao.maps.MarkerImage(imageSrc, imageSize);
@@ -42,7 +42,7 @@ function AreaPage1() {
       });
 
       var content = `    
-      <div style="position:relative;width:200px;height:100px;padding:15px 10px; display:flex; background-color: #FD9C43">
+      <div style="position:relative;width:200px;height:100px;padding:15px 10px; display:flex; background-color: #F8A340">
       <img src="https://www.panelplus.co.th/uploads/collection/75266-white-mk630.jpg" width="70" height="70"/>
 
 
@@ -80,7 +80,7 @@ function AreaPage1() {
       });
 
       var content = `    
-      <div style="position:relative;width:200px;height:100px;padding:15px 10px; display:flex; background-color: #1F9471">
+      <div style="position:relative;width:200px;height:100px;padding:15px 10px; display:flex; background-color: #FF4A65">
       <img src="https://www.panelplus.co.th/uploads/collection/75266-white-mk630.jpg" width="70" height="70"/>
 
 
@@ -118,7 +118,7 @@ function AreaPage1() {
       });
 
       var content = `    
-      <div style="position:relative;width:200px;height:100px;padding:15px 10px; display:flex; background-color: #3F4CCC">
+      <div style="position:relative;width:200px;height:100px;padding:15px 10px; display:flex; background-color: #AB2FFB">
       <img src="https://www.panelplus.co.th/uploads/collection/75266-white-mk630.jpg" width="70" height="70"/>
 
 
@@ -156,7 +156,7 @@ function AreaPage1() {
       });
 
       var content = `    
-      <div style="position:relative;width:200px;height:100px;padding:15px 10px; display:flex; background-color: #FF2C4D">
+      <div style="position:relative;width:200px;height:100px;padding:15px 10px; display:flex; background-color: #3B02B9">
       <img src="https://www.panelplus.co.th/uploads/collection/75266-white-mk630.jpg" width="70" height="70"/>
 
 
@@ -194,7 +194,7 @@ function AreaPage1() {
       });
 
       var content = `    
-      <div style="position:relative;width:200px;height:100px;padding:15px 10px; display:flex; background-color: #8D13F4">
+      <div style="position:relative;width:200px;height:100px;padding:15px 10px; display:flex; background-color: #374754">
       <img src="https://www.panelplus.co.th/uploads/collection/75266-white-mk630.jpg" width="70" height="70"/>
 
 
