@@ -1,7 +1,8 @@
-import React from "react";
+import React,{useEffect} from "react";
 import MapTab from "../MapPage/MapTab";
 
 function LandingPage() {
+
   return (
     <>
       <div>

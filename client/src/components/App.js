@@ -1,4 +1,5 @@
 import React, { Suspense } from 'react';
+import {Helmet} from "react-helmet";
 import { Route, Switch } from "react-router-dom";
 import Auth from "../hoc/auth";
 // pages for this product
@@ -14,6 +15,9 @@ import Footer from "./views/Footer/Footer"
 
 function App() {
   return (
+
+
+
     <Suspense fallback={(<div>Loading...</div>)}>
       <NavBar />
       <div style={{ paddingTop: '69px', minHeight: 'calc(100vh - 80px)' }}>
