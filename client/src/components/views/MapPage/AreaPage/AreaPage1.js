@@ -11,8 +11,8 @@ function Area1Page() {
     useEffect(() => {
         let container = document.getElementById("map");
         let options = {
-            center: new window.kakao.maps.LatLng(37.555597, 126.92481),
-            level: 5,
+            center: new window.kakao.maps.LatLng(37.533774, 126.993969),
+            level: 9,
         };
 
         let map = new window.kakao.maps.Map(container, options);
@@ -253,8 +253,7 @@ function Area1Page() {
             };
         }
     }, []);
-    return ( <
-        >
+    return ( < >
         <
         div style = {
             {
@@ -280,7 +279,8 @@ function Area1Page() {
                 marginTop: "40px",
             }
         } >
-        < /div> <
+        <
+        /div> <
         div style = {
             {
                 height: "40px",
@@ -292,7 +292,8 @@ function Area1Page() {
                 marginTop: "7px",
             }
         } >
-        < /div> <
+        <
+        /div> <
         div style = {
             {
                 height: "40px",
@@ -304,7 +305,8 @@ function Area1Page() {
                 marginTop: "7px",
             }
         } >
-        < /div> <
+        <
+        /div> <
         div style = {
             {
                 height: "40px",
@@ -316,7 +318,8 @@ function Area1Page() {
                 marginTop: "7px",
             }
         } >
-        < /div> <
+        <
+        /div> <
         div style = {
             {
                 height: "40px",
@@ -328,8 +331,9 @@ function Area1Page() {
                 marginTop: "7px",
             }
         } >
-        < /div> <
-        /div>
+        <
+        /div> < /
+        div >
 
         <
         div style = {
@@ -347,10 +351,9 @@ function Area1Page() {
                 height: "400px"
             }
         }
-        /> <
-        /div> <
-        /div> <
-        />
+        /> < /
+        div > <
+        /div> < / >
     );
 }
 
