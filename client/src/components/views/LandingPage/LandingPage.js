@@ -1,7 +1,6 @@
-import React from "react"
-import MapTab from "../MapPage/MapTab"
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs"
-import "react-tabs/style/react-tabs.css"
+import React from "react";
+import MapTab from "../MapPage/MapTab";
+
 function LandingPage() {
   return (
     <>
@@ -9,7 +8,7 @@ function LandingPage() {
         <MapTab />
       </div>
     </>
-  )
+  );
 }
 
-export default LandingPage
+export default LandingPage;
