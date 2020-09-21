@@ -4,11 +4,11 @@ import MapTab from "../MapPage/MapTab";
 function LandingPage() {
 
   return (
-    <>
-      <div>
+    <div>
+      <div className="mapcontainer">
         <MapTab />
       </div>
-    </>
+    </div>
   );
 }
 
