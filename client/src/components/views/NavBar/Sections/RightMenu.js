@@ -26,9 +26,6 @@ function RightMenu(props) {
         <Link to="/login">
           <Button>Log In</Button>
         </Link>
-        <Link to="/register">
-          <Button>Register</Button>
-        </Link>
       </>
     );
   } else {

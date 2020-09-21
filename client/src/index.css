@@ -26,6 +26,16 @@ body {
   align-items: center;
   height: 500px;
 }
+.loginform {
+
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width:500px;
+  margin: 0 auto;
+}
 
 input.error {
   border-color: red;

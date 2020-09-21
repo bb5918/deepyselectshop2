@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import data2 from "../data/data2";
 
-function Area2Page() {
+function AreaPage2() {
   useEffect(() => {
     let container = document.getElementById("map2");
     let options = {
@@ -90,4 +90,4 @@ function Area2Page() {
   );
 }
 
-export default Area2Page;
+export default AreaPage2;

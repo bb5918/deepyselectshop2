@@ -12,7 +12,7 @@ function AreaPage1() {
     let container = document.getElementById("map");
     let options = {
       center: new window.kakao.maps.LatLng(37.555597, 126.92481),
-      level: 5,
+      level: 9,
     };
 
     let map = new window.kakao.maps.Map(container, options);
@@ -258,7 +258,7 @@ function AreaPage1() {
       <div
         style={{
           position: "absolute",
-          top: "200px",
+          top: "160px",
           left: "12%",
           backgroundColor: "white",
           width: 70,
