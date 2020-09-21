@@ -1,16 +1,28 @@
-import React from 'react'
-import { FaCode } from "react-icons/fa";
-
+import React from "react"
+import MapTab from "../MapPage/MapTab"
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs"
+import "react-tabs/style/react-tabs.css"
 function LandingPage() {
-    return (
-        <>
-            <div className="app">
-                <FaCode style={{ fontSize: '4rem' }} /><br />
-                <span style={{ fontSize: '2rem' }}>Let's Start Coding!</span>
-            </div>
-            <div style={{ float: 'right' }}>Thanks For Using This Boiler Plate by John Ahn</div>
-        </>
-    )
+  return (
+    <>
+      <div>
+        <Tabs>
+          <TabList>
+            <Tab>Title 1</Tab>
+            <Tab>Title 2</Tab>
+          </TabList>
+
+          <TabPanel>
+            <h2>Any content 1</h2>
+          </TabPanel>
+          <TabPanel>
+            <h2>Any content 2</h2>
+          </TabPanel>
+        </Tabs>
+        );
+      </div>
+    </>
+  )
 }
 
 export default LandingPage

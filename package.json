@@ -17,7 +17,8 @@
   "author": "John ahn",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "@ant-design/icons": "^4.2.2",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.5",
@@ -27,6 +28,7 @@
     "moment": "^2.24.0",
     "mongoose": "^5.4.20",
     "react-redux": "^5.0.7",
+    "react-tabs": "^3.1.1",
     "saslprep": "^1.0.3",
     "supports-color": "^7.1.0"
   },
