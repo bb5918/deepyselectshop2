@@ -18,11 +18,11 @@ function AreaPage1() {
     let map = new window.kakao.maps.Map(container, options);
 
     
-    var imageSrc = require("../Image/marker_group1-1.png");
-    var imageSrc2 = require("../Image/marker_group1-2.png");
-    var imageSrc3 = require("../Image/marker_group1-3.png");
-    var imageSrc4 = require("../Image/marker_group1-4.png");
-    var imageSrc5 = require("../Image/marker_group1-5.png");
+    var imageSrc = require("../Image/marker_group1-1-2.png");
+    var imageSrc2 = require("../Image/marker_group1-2-2.png");
+    var imageSrc3 = require("../Image/marker_group1-3-2.png");
+    var imageSrc4 = require("../Image/marker_group1-4-2.png");
+    var imageSrc5 = require("../Image/marker_group1-5-2.png");
     var imageSize = new window.kakao.maps.Size(30, 40);
 
     var markerImage = new window.kakao.maps.MarkerImage(imageSrc, imageSize);
