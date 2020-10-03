@@ -24,13 +24,15 @@ function RightMenu(props) {
     return (
       <>
         <Link to="/login">
-          <Button>Log In</Button>
+          <Button style={{ color: "#5014A5", borderColor: "#5014A5" }}>
+            <p style={{ fontSize: "20px" }}>Log In</p>
+          </Button>
         </Link>
       </>
     );
   } else {
     return (
-      <Button>
+      <Button style={{ fontSize: "20px" }}>
         <a onClick={logoutHandler}>Logout</a>
       </Button>
     );

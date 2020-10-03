@@ -18,7 +18,7 @@ const TabContainer = styled.div`
   }
   .react-tabs__tab {
     width: 20%;
-    border: 2px solid;
+    border: 5px solid;
     border-bottom: none;
     background: #d6d6d6;
     border-radius: 10px 10px 0 0;

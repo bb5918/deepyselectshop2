@@ -7,8 +7,8 @@ import LoginPage from "./views/LoginPage/LoginPage.js";
 import RegisterPage from "./views/RegisterPage/RegisterPage.js";
 import NavBar from "./views/NavBar/NavBar";
 import Footer from "./views/Footer/Footer";
-import AdminPage from './views/AdminPage/AdminPage'
-import UploadShopPage from './views/AdminPage/UploadShopPage'
+import AdminPage from "./views/AdminPage/AdminPage";
+import UploadShopPage from "./views/AdminPage/UploadShopPage";
 //null   Anyone Can go inside
 //true   only logged in user can go inside
 //false  logged in user can't go inside
@@ -25,7 +25,7 @@ function App() {
       <div
         style={{
           backgroundColor: "#5014A5",
-          height: "300px",
+          height: "350px",
           width: "100%",
           fontFamily: "IBM Plex Hans KR",
         }}
@@ -42,7 +42,11 @@ function App() {
                 component={Auth(RegisterPage, false)}
               /> */}
               <Route exact path="/admin" component={Auth(AdminPage, true)} />
-              <Route exact path="/admin/upload" component={Auth(UploadShopPage,true)}/>
+              <Route
+                exact
+                path="/admin/upload"
+                component={Auth(UploadShopPage, true)}
+              />
             </Switch>
           </div>
           <Footer />

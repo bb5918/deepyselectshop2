@@ -1,14 +1,12 @@
 import React, { useEffect } from "react";
 import data1 from "../data/data1";
-import data2 from '../data/data2';
-import data3 from '../data/data3';
-import data4 from '../data/data4';
-import data5 from '../data/data5';
+import data2 from "../data/data2";
+import data3 from "../data/data3";
+import data4 from "../data/data4";
+import data5 from "../data/data5";
 
 function AreaPage1() {
   useEffect(() => {
-
-  
     let container = document.getElementById("map");
     let options = {
       center: new window.kakao.maps.LatLng(37.555597, 126.92481),
@@ -17,7 +15,6 @@ function AreaPage1() {
 
     let map = new window.kakao.maps.Map(container, options);
 
-    
     var imageSrc = require("../Image/marker_group1-1-2.png");
     var imageSrc2 = require("../Image/marker_group1-2-2.png");
     var imageSrc3 = require("../Image/marker_group1-3-2.png");
@@ -26,10 +23,10 @@ function AreaPage1() {
     var imageSize = new window.kakao.maps.Size(30, 40);
 
     var markerImage = new window.kakao.maps.MarkerImage(imageSrc, imageSize);
-    var markerImage2 = new window.kakao.maps.MarkerImage(imageSrc2,imageSize);
-    var markerImage3 = new window.kakao.maps.MarkerImage(imageSrc3,imageSize);
-    var markerImage4 = new window.kakao.maps.MarkerImage(imageSrc4,imageSize);
-    var markerImage5 = new window.kakao.maps.MarkerImage(imageSrc5,imageSize);
+    var markerImage2 = new window.kakao.maps.MarkerImage(imageSrc2, imageSize);
+    var markerImage3 = new window.kakao.maps.MarkerImage(imageSrc3, imageSize);
+    var markerImage4 = new window.kakao.maps.MarkerImage(imageSrc4, imageSize);
+    var markerImage5 = new window.kakao.maps.MarkerImage(imageSrc5, imageSize);
 
     var markerList = [];
     var overlayList = [];
@@ -258,11 +255,11 @@ function AreaPage1() {
       <div
         style={{
           position: "absolute",
-          top: "160px",
-          left: "12%",
+          top: "225px",
+          left: "225px",
           backgroundColor: "white",
-          width: 70,
-          height: 300,
+          width: 56,
+          height: 289,
           zIndex: 2,
           borderRadius: "30px",
         }}
@@ -271,21 +268,21 @@ function AreaPage1() {
           style={{
             height: "40px",
             width: "40px",
-            backgroundColor: "#FD9C43",
+            backgroundColor: "#F8A340",
             borderRadius: "50%",
-            marginLeft: "15px",
-            marginRight: "15px",
-            marginTop: "40px",
+            marginLeft: "8px",
+            marginRight: "8px",
+            marginTop: "30px",
           }}
         ></div>
         <div
           style={{
             height: "40px",
             width: "40px",
-            backgroundColor: "#1F9471",
+            backgroundColor: "#FF4A65",
             borderRadius: "50%",
-            marginLeft: "15px",
-            marginRight: "15px",
+            marginLeft: "8px",
+            marginRight: "8px",
             marginTop: "7px",
           }}
         ></div>
@@ -293,10 +290,10 @@ function AreaPage1() {
           style={{
             height: "40px",
             width: "40px",
-            backgroundColor: "#3F4CCC",
+            backgroundColor: "#AB2FFB",
             borderRadius: "50%",
-            marginLeft: "15px",
-            marginRight: "15px",
+            marginLeft: "8px",
+            marginRight: "8px",
             marginTop: "7px",
           }}
         ></div>
@@ -304,10 +301,10 @@ function AreaPage1() {
           style={{
             height: "40px",
             width: "40px",
-            backgroundColor: "#FF2C4D",
+            backgroundColor: "#3B02B9",
             borderRadius: "50%",
-            marginLeft: "15px",
-            marginRight: "15px",
+            marginLeft: "8px",
+            marginRight: "8px",
             marginTop: "7px",
           }}
         ></div>
@@ -315,10 +312,10 @@ function AreaPage1() {
           style={{
             height: "40px",
             width: "40px",
-            backgroundColor: "#8D13F4",
+            backgroundColor: "#374754",
             borderRadius: "50%",
-            marginLeft: "15px",
-            marginRight: "15px",
+            marginLeft: "8px",
+            marginRight: "8px",
             marginTop: "7px",
           }}
         ></div>
