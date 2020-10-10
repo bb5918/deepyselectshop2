@@ -10,14 +10,11 @@ function LeftMenu(props) {
   const user = useSelector((state) => state.user);
 
   if (user.userData && !user.userData.isAuth) {
-    return (
-      <>
-      </>
-    );
+    return <></>;
   } else {
     return (
-      <Link to="/admin"><PlusCircleFilled style={{ color: "#F4576C", fontSize: "30px" }} /></Link>
-      
+      // <Link to="/admin"><PlusCircleFilled style={{ color: "#F4576C", fontSize: "30px" }} /></Link>
+      <p></p>
     );
   }
 }

@@ -1,33 +1,21 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
-const shopSchema = mongoose.Schema({
-    name:{
-        type:String,
-        maxlength: 50
+const shopSchema = mongoose.Schema(
+  {
+    name: {
+      type: String,
+      maxlength: 50,
     },
-    lat: {
-        type:String
+    phone: {
+      type: String,
     },
-    lng: {
-        type:String
+    location: {
+      type: String,
     },
-    description: {
-        type: String
-    },
-    instalink: {
-        type:String
-    },
-    naverlink: {
-        type:String
-    },
-    style: {
-        type:String,
-    },
-    area: {
-        type: String,
-    }
-},{timestamps:true})
+  },
+  { timestamps: true }
+);
 
-const Shop = mongoose.model('Shop',shopSchema)
+const Shop = mongoose.model("Shop", shopSchema);
 
-module.exports={Shop}
+module.exports = { Shop };

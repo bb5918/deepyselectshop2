@@ -15,7 +15,7 @@ function NavBar() {
       <div className="logo">
         <div className="logo-item">
           <a href="/">
-            <span style={{ color: "white" }}>디피 Select</span>
+            <span style={{ color: "black" }}>디피 Select</span>
           </a>
         </div>
       </div>

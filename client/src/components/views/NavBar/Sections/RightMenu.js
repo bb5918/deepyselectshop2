@@ -23,6 +23,11 @@ function RightMenu(props) {
   if (user.userData && !user.userData.isAuth) {
     return (
       <>
+        {/* <Link to="/register">
+          <Button style={{ color: "#5014A5", borderColor: "#5014A5" }}>
+            <p style={{ fontSize: "20px" }}>Register</p>
+          </Button>
+        </Link> */}
         <Link to="/login">
           <Button style={{ color: "#5014A5", borderColor: "#5014A5" }}>
             <p style={{ fontSize: "20px" }}>Log In</p>
